@@ -1,0 +1,83 @@
+/* 공통 색 */
+.fc_purple{color:#8468a4;}
+.fc_pink{color:#f35a73;}
+.fc_pink2{color:#e7435e;}
+.fc_blue{color:#003a91;}
+.fc_gray{color:#808080;}
+.fc_black{color:#263238;}
+.fc_female{color:#f4716a;}
+.fc_male{color:#2891b6;}
+
+/* 상세 상단 */
+.dt_top_wrap{position:relative; width:100%; height:35px; line-height:35px; padding:0 16px; border-bottom:1px solid #c1c1c1; box-sizing:border-box; background-color:#e4e4e4; color:#444444; font-size:15px;}
+.dt_top_wrap span{font-weight:600;}
+
+/* 상단 정보 */
+.dt_info_wrap{position:relative; width:100%; height:auto; padding:10px 8px; box-sizing:border-box;}
+.info_photo_wrap{position:absolute; top:10px; left:8px; z-index:10; width:70px; height:60px;}
+.info_photo_wrap a{position:relative; width:100%; height:100%; border:1px solid #c1c1c1; box-sizing:border-box; background:#f3f3f3 url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_camera.png) no-repeat center center; background-size:35px 27px;}
+.info_photo_wrap a img{width:100%; height:100%;}
+.info_photo_wrap .num_badge{position:absolute; top:-5px; right:-8px; min-width:20px; height:20px; line-height:12px; padding:4px 5px 4px 5px; border-radius:10px; box-sizing:border-box; background-color:#e74343; color:#fff; font-size:12px; font-weight:600; text-align:center;}
+.info_txt_wrap{position:relative; width:100%; height:60px; padding-left:80px; box-sizing:border-box;}
+.info_txt_wrap li{width:100%; line-height:14px; font-size:14px; padding-bottom:7px; color:#727272;}
+.info_txt_wrap li:last-of-type{padding-bottom:0px;}
+
+/* 상단 버튼 */
+.dt_top_btn{position:relative; width:100%; height:auto; padding:2px 8px 10px 8px; box-sizing:border-box;}
+.dt_top_btn:after{content:""; display:block; clear:both;}
+.dt_top_btn .top_btn{width:32%; height:35px; line-height:33px; margin-right:2%; border:1px solid #b2b2b2; border-radius:5px; box-sizing:border-box; background-color:#f5f5f5; color:#444444; text-align:center; font-size:15px; float:left; cursor:pointer;}
+.dt_top_btn .top_btn:active{background-color:#ededed;}
+.dt_top_btn .top_btn span{display:inline-block; padding-left:18px;}
+.dt_top_btn .top_btn:nth-of-type(1) span{background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_cut.png) no-repeat left 10px; background-size:13px 12px;}
+.dt_top_btn .top_btn:nth-of-type(2) span{background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_like.png) no-repeat left 10px; background-size:14px 13px;}
+
+.dt_top_btn .btn_contact{line-height:35px; margin-right:0; border:none; background-color:#8468a4; color:#fff;}
+.dt_top_btn .btn_contact:active{background-color:#7d639c;}
+.dt_top_btn .btn_contact a{display:block; width:100%; height:100%;}
+.dt_top_btn .btn_contact a span{padding-left:22px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_contact.png) no-repeat left 11px; background-size:16px 13px;}
+
+/* 가려진 정보 공지 */
+.dt_notice_wrap{position:absolute; width:100%; height:auto; padding:0 8px; box-sizing:border-box;}
+.dt_notice_wrap div{position:relative; width:100%; height:30px; line-height:30px; padding:0 15px; border-radius:5px; box-sizing:border-box; background-color:#bae3e3; font-size:14px; font-weight:600;}
+.dt_notice_wrap div img{vertical-align:middle;}
+
+/* 상세 리스트 */
+.mt_35{margin-top:35px;}
+#content{padding:5px 8px 10px 8px; box-sizing:border-box; background-color:#f9f9f9;}
+
+.dt_list{position:relative; width:100%; height:auto; margin-bottom:3px; border:1px solid #c1c1c1; border-radius:3px; box-sizing:border-box; background-color:#fff;}
+.dt_list:last-of-type{margin-bottom:0px;}
+.dt_list h2{position:relative; width:100%; height:36px; line-height:36px; padding-left:30px; box-sizing:border-box; border-bottom:1px solid #c1c1c1; box-shadow:0px 1px 0px 0px #f0eeee; font-size:14px;}
+.dt_list h2 .fc_gray{font-size:12px;}
+
+.dt_list .dt_u{position:relative; width:100%; height:auto; padding:0 10px; box-sizing:border-box;}
+.dt_list .dt_u li{position:relative; width:100%; height:auto; color:#727272; font-size:14px; border-bottom:1px solid #e5e5e5;}
+.dt_list .dt_u li:last-of-type{border-bottom:none;}
+.dt_list .dt_l{position:absolute; top:0; left:0; width:75px; height:32px; line-height:32px;}
+.dt_list .dt_r{position:relative; width:100%; height:auto; line-height:32px; padding:0 10px 0 75px; box-sizing:border-box;}
+.dt_list .dt_full{position:relative; width:100%; height:auto; line-height:32px; padding:0 10px; box-sizing:border-box; color:#727272; font-size:14px;}
+.dt_list .dt_photo_wrap{position:relative; width:100%; height:auto; padding:0 10px; box-sizing:border-box;}
+.dt_list .dt_photo_wrap .dt_photo_txt{padding:10px 0; color:#444; font-size:14px;}
+.dt_list .dt_photo_wrap .dt_photo_txt .fc_pink2, .dt_list .dt_photo_wrap .dt_photo_txt .fc_blue{font-weight:600;}
+.dt_list .dt_photo_wrap .dt_photo{position:relative; width:100%; height:auto;}
+.dt_list .dt_photo_wrap .dt_photo:after{content:""; display:block; clear:both;}
+.dt_list .dt_photo_wrap .dt_photo li{position:relative; width:33.3333%; height:auto; padding-bottom:10px; float:left; text-align:center;}
+.dt_list .dt_photo_wrap .dt_img{width:85px; height:85px; margin:0 auto; padding:2px; border:1px solid #c1c1c1; box-sizing:border-box; cursor:pointer;}
+.dt_list .dt_photo_wrap .dt_img img{width:100%; height:100%;}
+
+.dt_list .wid_40{width:40%; height:20px; vertical-align:middle;}
+.dt_list .wid_60{width:60%; height:20px; vertical-align:middle;}
+.dt_list .wid_70{width:70%; height:20px; vertical-align:middle;}
+.dt_list .wid_80{width:80%; height:20px; vertical-align:middle;}
+.dt_list .btn_look{display:inline-block; width:35px; height:20px; line-height:20px; margin-left:5px; border:1px solid #c1c1c1; border-radius:5px; background-color:#f5f5f5; text-align:center; font-size:12px; vertical-align:middle; cursor:pointer;}
+.dt_list .dt_u .btn_look:active{background-color:#ededed;}
+
+/* 하단 버튼 */
+.dt_bot_btn{position:relative; width:100%; height:auto; padding:0 8px 15px 8px; box-sizing:border-box;}
+.dt_bot_btn:after{content:""; display:block; clear:both;}
+.dt_bot_btn .bot_btn{width:115px; height:35px; line-height:35px; border-radius:5px; background-color:#7c7c7c; color:#fff; text-align:center; font-size:15px; float:left; cursor:pointer;}
+.dt_bot_btn .bot_btn:active{background-color:#767676;}
+.dt_bot_btn .btn_contact{width:100px; background-color:#8468a4;  float:right;}
+.dt_bot_btn .btn_contact:active{background-color:#7d639c;}
+.dt_bot_btn .btn_contact a{display:block; width:100%; height:100%;}
+.dt_bot_btn .btn_contact a span{display:inline-block; padding-left:22px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_contact.png) no-repeat left 11px; background-size:16px 13px;}
