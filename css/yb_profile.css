@@ -38,7 +38,10 @@
 
 /* 가려진 정보 공지 */
 .dt_notice_wrap{position:absolute; width:100%; height:auto; padding:0 8px; box-sizing:border-box;}
-.dt_notice_wrap div{position:relative; width:100%; height:30px; line-height:30px; padding:0 15px; border-radius:5px; box-sizing:border-box; background-color:#bae3e3; font-size:14px; font-weight:600;}
+.dt_notice_wrap div{position:relative; width:100%; height:30px; line-height:30px; padding:0 10px; border-radius:5px; box-sizing:border-box; background-color:#bae3e3; font-size:14px; font-weight:600;}
+@media screen and (max-width:350px) {
+    .dt_notice_wrap div{font-size:13px;}
+}
 .dt_notice_wrap div img{vertical-align:middle;}
 
 /* 상세 리스트 */
@@ -64,6 +67,7 @@
 .dt_list .dt_photo_wrap .dt_photo li{position:relative; width:33.3333%; height:auto; padding-bottom:10px; float:left; text-align:center;}
 .dt_list .dt_photo_wrap .dt_img{width:85px; height:85px; margin:0 auto; padding:2px; border:1px solid #c1c1c1; box-sizing:border-box; cursor:pointer;}
 .dt_list .dt_photo_wrap .dt_img img{width:100%; height:100%;}
+.dt_list .dt_photo_wrap .dt_blur{-webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px); filter: blur(2px);}
 
 .dt_list .wid_40{width:40%; height:20px; vertical-align:middle;}
 .dt_list .wid_60{width:60%; height:20px; vertical-align:middle;}
@@ -73,7 +77,7 @@
 .dt_list .dt_u .btn_look:active{background-color:#ededed;}
 
 /* 하단 버튼 */
-.dt_bot_btn{position:relative; width:100%; height:auto; padding:0 8px 15px 8px; box-sizing:border-box;}
+.dt_bot_btn{position:relative; width:100%; height:auto; padding:0 8px 15px 8px; box-sizing:border-box; background-color:#f9f9f9;}
 .dt_bot_btn:after{content:""; display:block; clear:both;}
 .dt_bot_btn .bot_btn{width:115px; height:35px; line-height:35px; border-radius:5px; background-color:#7c7c7c; color:#fff; text-align:center; font-size:15px; float:left; cursor:pointer;}
 .dt_bot_btn .bot_btn:active{background-color:#767676;}
