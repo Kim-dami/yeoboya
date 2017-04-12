@@ -26,15 +26,18 @@
 .dt_top_btn{position:relative; width:100%; height:auto; padding:2px 8px 10px 8px; box-sizing:border-box;}
 .dt_top_btn:after{content:""; display:block; clear:both;}
 .dt_top_btn .top_btn{width:32%; height:35px; line-height:33px; margin-right:2%; border:1px solid #b2b2b2; border-radius:5px; box-sizing:border-box; background-color:#f5f5f5; color:#444444; text-align:center; font-size:15px; float:left; cursor:pointer;}
-.dt_top_btn .top_btn:active{background-color:#ededed;}
+.dt_top_btn .top_btn:active{background-color:#f4f4f4;}
 .dt_top_btn .top_btn span{display:inline-block; padding-left:18px;}
 .dt_top_btn .top_btn:nth-of-type(1) span{background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_cut.png) no-repeat left 10px; background-size:13px 12px;}
 .dt_top_btn .top_btn:nth-of-type(2) span{background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_like.png) no-repeat left 10px; background-size:14px 13px;}
 
 .dt_top_btn .btn_contact{line-height:35px; margin-right:0; border:none; background-color:#8468a4; color:#fff;}
-.dt_top_btn .btn_contact:active{background-color:#7d639c;}
-.dt_top_btn .btn_contact a{display:block; width:100%; height:100%;}
-.dt_top_btn .btn_contact a span{padding-left:22px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_contact.png) no-repeat left 11px; background-size:16px 13px;}
+.dt_top_btn .btn_contact:active{background-color:#7d639c!important;}
+.dt_top_btn .btn_contact span{padding-left:22px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_contact.png) no-repeat left 11px; background-size:16px 13px;}
+
+.dt_top_btn .top_disable{background-color:#e3e3e3; cursor:inherit;}
+.dt_top_btn .top_btn:active{background-color:#e3e3e3;}
+.dt_top_btn .top_disable span{opacity:0.4;}
 
 /* 가려진 정보 공지 */
 .dt_notice_wrap{position:absolute; width:100%; height:auto; padding:0 8px; box-sizing:border-box;}
@@ -85,6 +88,5 @@
 .dt_bot_btn .bot_btn{width:115px; height:35px; line-height:35px; border-radius:5px; background-color:#7c7c7c; color:#fff; text-align:center; font-size:15px; float:left; cursor:pointer;}
 .dt_bot_btn .bot_btn:active{background-color:#767676;}
 .dt_bot_btn .btn_contact{width:100px; background-color:#8468a4;  float:right;}
-.dt_bot_btn .btn_contact:active{background-color:#7d639c;}
-.dt_bot_btn .btn_contact a{display:block; width:100%; height:100%;}
-.dt_bot_btn .btn_contact a span{display:inline-block; padding-left:22px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_contact.png) no-repeat left 11px; background-size:16px 13px;}
+.dt_bot_btn .btn_contact:active{background-color:#7d639c!important;}
+.dt_bot_btn .btn_contact span{display:inline-block; padding-left:22px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_dt_contact.png) no-repeat left 11px; background-size:16px 13px;}
