@@ -1,0 +1,64 @@
+.fc_red{color:#f00;}
+
+/* 소개사진 영역 */
+.wt_photo_wrap{position:relative; width:100%; height:auto; padding:20px 0;}
+.wt_photo_wrap .wt_photo_wrap{position:relative; width:150px; height:105px; margin:0 auto; padding:0; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/bg_wt_photo.png) no-repeat center center; background-size:150px 105px;}
+.wt_photo_wrap .wt_info{position:relative; width:100%; height:auto; line-height:15px; text-align:center; padding-top:5px; font-size:15px;}
+.wt_photo_wrap .wt_info img{vertical-align:middle;}
+
+/* 공지 영역 */
+.wt_notice_wrap{position:relative; width:100%; height:auto; padding:0 10px; box-sizing:border-box;}
+.wt_notice_wrap .notice_black{width:100%; height:auto; line-height:18px; padding:7px 0; border:1px solid #8468a4; box-sizing:border-box; background-color:#424242; color:#fff; text-align:center; font-size:13px;}
+.wt_notice_wrap .notice_white{width:100%; height:auto; line-height:18px; padding:10px 0; text-align:center; font-size:13px;}
+
+/* 글쓰기 영역 */
+.wt_txt_wrap{position:relative; width:100%; height:auto; padding:20px 10px; box-sizing:border-box; border-top:1px solid #b6bcbf; border-bottom:1px solid #b6bcbf; background-color:#eeeeee;}
+.wt_txt_wrap .txt_box{position:relative; width:100%; height:110px; padding:7px 10px; border:1px solid #d3d3d3; box-sizing:border-box; background-color:#fff; color:#3d3f4e; font-size:14px; outline:none; resize:none;}
+
+/* 컬러 픽커 */
+.color_picker{position:relative; width:100%; height:140px; padding:15px 130px 0px 10px; box-sizing:border-box;}
+@media screen and (max-width:350px){
+    .color_picker{padding:15px 100px 0px 10px;}
+}
+.color_picker ul{position:relative; width:100%; height:auto;}
+.color_picker ul:after{content:""; display:block; clear:both;}
+.color_picker ul:first-of-type{padding-bottom:10px;}
+.color_picker li{position:relative; width:22px; height:22px; float:left; margin-right:10px;}
+.color_picker li:last-of-type{margin-right:0px;}
+.color_picker li img{vertical-align:middle;}
+.color_picker .cp_radio{display:block; position:absolute; top:0; left:0; z-index:10; width:100%; height:100%; opacity:0; cursor:pointer;}
+.color_picker .cp_label{display:block; position:relative; width:100%; height:100%; border:1px solid #fff; box-sizing:border-box; background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_color_chk.png); background-repeat:no-repeat; background-size:cover; background-position:center -22px;}
+.color_picker .cp_color1{background-color:#3d3f4e;}
+.color_picker .cp_color2{background-color:#da5a63;}
+.color_picker .cp_color3{background-color:#d349a4;}
+.color_picker .cp_color4{background-color:#bd41eb;}
+.color_picker .cp_color5{background-color:#9450f9;}
+.color_picker .cp_color6{background-color:#e1824e;}
+.color_picker .cp_color7{background-color:#caa43d;}
+.color_picker .cp_color8{background-color:#8aad3e;}
+.color_picker .cp_color9{background-color:#459c6e;}
+.color_picker .cp_color10{background-color:#329c9b;}
+.color_picker .cp_color11{background-color:#398cff;}
+.color_picker .cp_radio:checked ~ .cp_label{background-position:center center;}
+
+/* 버튼 영역 */
+.wt_btn_box{position:absolute; top:145px; right:10px; width:120px; height:auto;}
+@media screen and (max-width:350px){
+    .wt_btn_box{width:95px;}
+}
+.wt_btn_box div{width:100%; height:40px; line-height:40px; margin-bottom:5px; border-radius:5px; overflow:hidden;}
+.wt_btn_box div a{display:block; width:100%; height:100%; color:#fff; text-align:center; font-size:15px;}
+.wt_btn_box div a:active{background:rgba(0,0,0,0.05);}
+.wt_btn_box .btn_myup{background:#8468a4 url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_up_triangle.png) no-repeat 15px center; background-size:11px 10px;}
+@media screen and (max-width:350px){
+    .wt_btn_box .btn_myup{background:#8468a4 url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_up_triangle.png) no-repeat 5px center; background-size:11px 10px;}
+}
+.wt_btn_box .btn_myup a{padding-left:15px; box-sizing:border-box;}
+@media screen and (max-width:350px){
+    .wt_btn_box .btn_myup a{padding-left:10px;}
+}
+.wt_btn_box .btn_modify{background-color:#848484;}
+.wt_btn_box .btn_del{background-color:#595959;}
+
+/* 글쓰기 풋터 */
+#wt_footer{position:relative; width:100%; height:auto; line-height:17px; padding:10px; box-sizing:border-box; color:#b6b6b6; font-size:11px;}
