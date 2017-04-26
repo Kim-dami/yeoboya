@@ -1,6 +1,4 @@
 @charset "utf-8";
-@import url( "http://fonts.googleapis.com/earlyaccess/notosanskr.css" );
-
 /********** 초기화 **********/
 html, body, div, p, span, iframe, h1, h2, h3, h4, h5, h6, address, img, em, b, i, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figcaption, figure, footer, header, hgroup, menu, nav, section, audio, video {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; -webkit-overflow-scrolling:touch;}
 html, body {width:100%; height:100%;}
@@ -20,13 +18,13 @@ p {margin:0; padding:0;}
 .hidden{display:none;}
 
 /********** 폰트 **********/
-body{font-family:"NotoSansKR-Regular", "Noto Sans KR", sans-serif; font-weight:500; color:#444; font-size:15px; letter-spacing:-0.5px;}
+body{font-family:NotoSansKR-Regular, sans-serif; font-weight:500; color:#444; font-size:15px; letter-spacing:-0.5px;}
 
 /********** 여보야 기본 **********/
 #wrap{position:relative; margin:0; padding:0; width:100%; height:auto; background-color:#fff;}
 
 /* 상단헤더 공통사용 */
-#header {display:block; z-index:600; width:100%; height:45px; background-color:#8468a4;}
+#header {display:block; z-index:800; width:100%; height:45px; background-color:#8468a4;}
 .header_relative {position:relative; top:0; left:0; right:0;}
 .header_fixed {position:fixed; top:0; left:0; right:0;}
 #header .sub_header {width:100%; height:100%; padding:0 60px; box-sizing:border-box; color:#fff; font-size:18px; font-weight:700; line-height:45px; letter-spacing:-0.5px;}
