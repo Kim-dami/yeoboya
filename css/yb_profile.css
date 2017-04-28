@@ -89,7 +89,7 @@
 .dt_list .dt_full{position:relative; width:100%; height:auto; line-height:32px; padding:0 10px; box-sizing:border-box; color:#727272; font-size:14px;}
 
 .dt_list .dt_photo_wrap{position:relative; width:100%; height:auto; padding:0 10px; box-sizing:border-box;}
-.dt_list .dt_photo_wrap .dt_photo_txt{padding:10px 0; color:#444; font-size:14px;}
+.dt_list .dt_photo_wrap .dt_photo_txt{padding:8px 0 18px 0; color:#444; font-size:14px;}
 .dt_list .dt_photo_wrap .dt_photo_txt .fc_pink2, .dt_list .dt_photo_wrap .dt_photo_txt .fc_blue{font-weight:600;}
 .dt_list .dt_photo_wrap .dt_photo{position:relative; width:100%; height:auto;}
 .dt_list .dt_photo_wrap .dt_photo:after{content:""; display:block; clear:both;}
