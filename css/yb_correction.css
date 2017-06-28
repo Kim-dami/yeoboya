@@ -2,6 +2,7 @@
 #wrap{height:100%; overflow-y:auto;}
 input, textarea, select{appearance:none; -webkit-appearance:none; -moz-appearance:none;}
 .cr_lilst{position:relative; width:100%; height:auto;}
+.pt_45{padding-top:45px;}
 .pd_45{padding-bottom:45px;}
 .mt_30{margin-top:30px;}
 
